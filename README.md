@@ -148,11 +148,11 @@ This project publishes a Docker image (since #[3112](https://github.com/openMF/c
 
 To locally build this Docker image from source (after `git clone` this repo), run:
 ```
-docker build -t mifos-maxfin-community-app .
+docker build -t mifos-tembeya-community-app .
 ```
 You can then run a Docker Container from the image above like this:
 ```
-docker run --name mifos-maxfin-ui -it -d -p 80:80 mifos-maxfin-community-app
+docker run --name mifos-tembeya-ui -it -d -p 1180:1180 mifos-tembeya-community-app
 ```
 
 Access the webapp on http://localhost in your browser.
